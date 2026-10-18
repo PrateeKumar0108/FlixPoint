@@ -165,17 +165,4 @@ The UI follows a dark glassmorphism system built around a deep navy base with go
 
 ---
 
-## Developer
 
-Built by **Ehsan Ali** 
-
-- LinkedIn: www.linkedin.com/in/ehsan-7x
-- GitHub: https://github.com/originehsan
-
----
-
-## License
-
-MIT License — Copyright (c) 2026 Ehsan
-
-See [LICENSE](LICENSE) for full text.
