@@ -1,0 +1,116 @@
+name: movieticket
+description: FlixPoint — Movie Booking App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+
+  # Firebase
+  firebase_core: ^4.9.0
+  firebase_auth: ^6.5.1
+  cloud_firestore: ^6.4.1
+  firebase_app_check: ^0.4.4+1
+  firebase_crashlytics: ^5.2.0
+
+  # Image picker
+  image_picker: ^1.1.2
+
+  # UUID generation
+  uuid: ^4.5.3
+
+  # Carousel
+  carousel_slider: ^5.1.2
+
+  # Ratings
+  flutter_rating_bar: ^4.0.1
+
+  # Expand/collapse text
+  readmore: ^3.0.0
+
+
+  # PDF generation
+  pdf: ^3.11.3
+
+  # OTP field
+  pinput: ^6.0.2
+
+  # Animation
+  animations: ^2.0.11
+  lottie: ^3.3.1
+  flutter_animate: ^4.5.2
+
+  # Local storage
+  shared_preferences: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+
+  # Network
+  connectivity_plus: ^6.1.1
+  internet_connection_checker_plus: ^2.5.1
+  dio: ^5.9.2
+
+  # UI
+  gap: ^3.0.1
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.4.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Utils
+  path_provider: ^2.1.5
+  qr_flutter: ^4.1.0
+  share_plus: ^12.0.2
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  flutter_native_splash: ^2.4.7
+
+  # Media
+  youtube_player_flutter: ^9.1.3
+  page_transition: ^2.2.1
+  confetti: ^0.8.0
+  shimmer: ^3.0.0
+  upi_pay: ^1.1.0
+  google_fonts: ^6.3.2
+  http: ^1.6.0
+  flutter_dotenv: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+dependency_overrides:
+  archive: ^3.6.1
+
+# ROOT LEVEL — not inside flutter:
+flutter_native_splash:
+  color: "#060B14"
+  color_dark: "#060B14"
+  android: true
+  ios: true
+  web: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/movies_imgaes/
+    - assets/lottie/
+    - .env
+
+  fonts:
+    - family: MyCustomFont
+      fonts:
+        - asset: assets/font/Antonio/static/Antonio-SemiBold.ttf
